@@ -9,4 +9,4 @@
 ■ Used PythonAnywherefor hosting. Integrated with Twillio for email and SMS notifications.
  If you need more information please visit the video link.
 
-Video link: https://www.youtube.com/watch?v=fOKF3LWCwsk&feature=youtu.be
+
