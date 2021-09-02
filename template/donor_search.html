@@ -3,18 +3,24 @@
 
 {% block content %}
 
+
+
     <!-- Search -->
-    <div class="search">
+    <div class="search" style="align-content: center;margin-top: 80px">
       <img src="{{ logo_img.logo_image.url }}" class="rounded-circle" alt="Logo" width="221" height="227">
-      <form action="{% url 'donorlistsite' %}" method="POST">
+        <br>
+        <br>
+        <div>
+      <form action="{% url 'donorlistsite' %}" method="POST"style="align-content: center">
           {% csrf_token %}
           <div class="input-group mb-3">
             {{forms_search.select_blood_group}}
             {{forms_search.select_location}}
           </div>
-        <button type="submit" class="btn search_bt">Search</button>
+        <button type="submit" class="btn search_bt" style="align-content: center">Search</button>
 
       </form>
+        </div>
     </div>
 
 
