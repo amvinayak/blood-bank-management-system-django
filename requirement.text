@@ -1,5 +1,4 @@
-Package                       Version
------------------------------ -------
+
 beautifulsoup4                4.9.3
 cffi                          1.14.4
 cryptography                  3.3.1
